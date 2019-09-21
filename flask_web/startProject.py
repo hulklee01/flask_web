@@ -106,6 +106,11 @@ def duplicateid():
     return render_template('duplicate_id.html')
 
 
+@app.route('/search', methods=['POST'])
+def search():
+    pass
+
+
 if __name__ == '__main__':
     app.run()
 

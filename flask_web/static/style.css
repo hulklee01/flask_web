@@ -16,6 +16,9 @@ h2              { font-size: 1.2em; }
 .flash          { background: #CEE5F5; padding: 0.5em;
                   border: 1px solid #AACBE2; }
 .error          { background: #F0D6D6; padding: 0.5em; }
-.top-bar        { width: 100%; background-color: black; }
-.title-bar      { margin-left: 100px; margin-right: 100px; }
-.title-bar h1   { border-bottom: 0px; }
+.top-bar        { width: 100%; background-color: black; height: 50px; }
+.title-bar      { margin-left: 100px; width: 100px; padding-top: 15px; padding-bottom: 15px; }
+.title-bar h1   { border-bottom: 0px; width: 100px; }
+.title-bar span { font-size: 20px; color: white; font-family: 'Georgia', serif; }
+.search-bar     { margin-left: 250px; padding-top: 15px; padding-bottom: 15px; }
+.search-bar form   { height: 20px; }
